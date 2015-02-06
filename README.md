@@ -8,7 +8,7 @@ To enable [New Relic][nr] tracing, set these environment variables - they will o
 
 ```
 dokku config:set ink-clj NEW_RELIC_APP_NAME=ink-clj \
-                         NEW_RELIC_LICENSE_KEY=:redacted:
+                         NEW_RELIC_LICENSE_KEY=:redacted: \
                          JVM_OPTS="-javaagent:/app/newrelic/newrelic.jar"
 ```
 
