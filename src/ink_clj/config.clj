@@ -6,4 +6,4 @@
   (if-let [v (or (key @app-configs) default)]
     v
     (when-not (contains? @app-configs key)
-      (throw (RuntimeException. (str "unknow config for key " (name key)))))))
+      (throw (RuntimeException. (str "unknown config for key " (name key)))))))

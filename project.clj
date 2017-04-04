@@ -11,7 +11,7 @@
   :dependencies [[org.clojure/clojure "1.8.0"]
                  [org.clojure/tools.cli "0.3.5"]
                  ;; [com.climate/clj-newrelic "0.2.1"]
-                 [com.microsoft.azure/applicationinsights-web "1.0.7"]
+                 ;; [com.microsoft.azure/applicationinsights-web "1.0.7"]
                  [compojure "1.5.2"]
                  [environ "1.1.0"]
                  [ring/ring-core "1.5.1"]
